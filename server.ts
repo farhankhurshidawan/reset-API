@@ -1,6 +1,13 @@
-console.log("welcome to api");
-console.log('welcome');
+import app from './src/app'
 
-function name(params:type) {
-    return name
+
+const startServer=()=>{
+    const port=process.env.PORT || 3000;
+
+    app.listen(port,()=>{
+        console.log(`listing on port ${3000}`);
+        
+    })
 }
+
+startServer()
