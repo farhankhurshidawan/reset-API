@@ -1,9 +1,10 @@
-import { config as conf } from "dotenv"
+import { config as conf } from "dotenv";
 
-conf()
+// 
+conf();
 
-const _config=()=>{
-    port:process.env.PORT
+const _config={
+    port:process.env.PORT,
 }
 
 // freeze mean read only
